@@ -16,7 +16,7 @@ print(colorama.Fore.GREEN +
 #signals if the event was catched during the current program runtime
 alarmPerforming = False
  
-#get data from os windows (some C-related stuff to learn :))
+#get data from os windows
 EnumWindows = ctypes.windll.user32.EnumWindows
 EnumWindowsProc = ctypes.WINFUNCTYPE(ctypes.c_bool,
                                      ctypes.POINTER(ctypes.c_int),
